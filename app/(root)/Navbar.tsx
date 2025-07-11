@@ -11,9 +11,7 @@ const Navbar = async () => {
         <Image src={"/logo.png"} alt="logo" width={100} height={100}></Image>
       </Link>
       <ul className="flex space-x-4">
-        <li>
-          <Link href="/albums">Albums</Link>
-        </li>{" "}
+
         {session ? (
           <li className="flex space-x-4">
             <Link href="/profile">{session.user?.name}</Link>

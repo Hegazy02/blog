@@ -1,7 +1,7 @@
 import React from "react";
 
 const Users = () => {
-  throw new Error(" wow error");
+  // throw new Error(" wow error");
 
   return <div>Users</div>;
 };

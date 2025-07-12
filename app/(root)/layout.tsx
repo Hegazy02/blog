@@ -50,7 +50,7 @@ const workSans = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Yclub",
+  title: "YCDirectory",
   description: "Craete your own blog",
 };
 
